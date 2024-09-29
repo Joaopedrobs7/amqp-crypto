@@ -11,9 +11,9 @@ public class ProdApplication {
 
 	 //static final String directExchangeName = "direct-exchange";
 	 static final String topicExchangeName = "topic-exchange";
-	 static final String routingKeyLow = "rota-um";
-	 static final String routingKeyMid = "rota-dois";
-	 static final String routingKeyLHigh = "rota-tres";
+	 static final String routingKeyLow = "cripto.baixo";
+	 static final String routingKeyMid = "cripto.medio";
+	 static final String routingKeyHigh = "cripto.alto";
 	 
 //	 @Bean
 //	 DirectExchange exchange() {
