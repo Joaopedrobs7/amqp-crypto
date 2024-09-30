@@ -28,6 +28,9 @@ pip install -r requirements.txt
 
 - Escolha entre: `1,2 ou 3` Para enviar mensagem para um topico especifico
 
+## Executando Backend
+- Rode o `backend.py` para monitorar todas mensagens
+
 ## Executando Consumidor
 Para o Consumidor utilize o [Pycharm](https://www.jetbrains.com/pycharm/) ou outra ide que permita rodar multiplas instancias.
 
@@ -36,6 +39,7 @@ Para o Consumidor utilize o [Pycharm](https://www.jetbrains.com/pycharm/) ou out
 
 ### Agora esta tudo certo para rodar ;)<br />
 
-Escolha entre: `1-Consumidor ou 2-Auditor`.<br />
-Caso consumidor escolha seu topico de interesse e sinta-se livre para rodar multiplas instancias de consumidor ou auditor.
+- Rode o `consumer.py` e escolha entre: `1-Consumidor ou 2-Auditor`.<br />
++ Caso consumidor escolha seu topico de interesse e sinta-se livre para rodar multiplas instancias de consumidor ou auditor.
++ Caso Auditor: Sera apenas um auditor temporario que vai ouvir apenas durante sua execucao, se desejar o monitoramento completo por favor siga o [Executando Backend](#executando-backend)
 
